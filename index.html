@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Space Dodge</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="game-container">
+        <canvas id="gameCanvas"></canvas>
+        <div id="ui-overlay">
+            <div id="start-screen">
+                <h1>Space Dodge</h1>
+                <button id="play-button">Play</button>
+            </div>
+            <div id="countdown" class="hidden">3</div>
+            <div id="game-over" class="hidden">
+                <h1>Game Over</h1>
+                <p>Score: <span id="final-score">0</span></p>
+                <button id="restart-button">Play Again</button>
+            </div>
+            <div id="score-display" class="hidden">Score: 0</div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
